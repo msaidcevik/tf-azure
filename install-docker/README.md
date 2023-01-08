@@ -129,6 +129,8 @@ terraform state list
 ```bash
 terraform state show azurerm_public_ip.docker-ip
 ```
+![public ip](./public.png)
+
 - But we still can't see public_ip and now add `network_interface`
 
 ## Network Interface
@@ -167,6 +169,8 @@ terraform state list
 ```bash
 terraform state show azurerm_network_interface.docker-nic
 ```
+![network-interface](./nic.png)
+
 - You can see `private_ip`, but don't still see `public_ip`.
 
 - Now create linux virtual machine 
